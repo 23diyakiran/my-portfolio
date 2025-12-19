@@ -6,7 +6,7 @@ export const AboutSection = () => {
       <div className="container mx-auto max-w-5xl flex items-center justify-center min-h-[60vh]">
         <div className="text-center space-y-6">
           <img
-            src="/profile pic.jpg"           // your image in public folder
+            src={`${import.meta.env.BASE_URL}profile-pic.jpg`}     // your image in public folder
             alt="Diya Kiran Gathani"
             className="w-32 h-32 rounded-full mx-auto object-cover"
           />
@@ -32,7 +32,7 @@ export const AboutSection = () => {
             </a>
 
             <a
-              href="/Diya_CV.pdf"
+              href={`${import.meta.env.BASE_URL}Diya_KIran_Resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"

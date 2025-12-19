@@ -5,26 +5,37 @@ const projects = [
     id: 1,
     title: "ASL Gesture Classification System",
     description: " A deep learning model using CNNs to classify static ASL gestures from images. Includes a real-time interface and integration with communication tools to facilitate interaction between ASL users and non-signers.",
-    image: "/projects/Sign Language.png",
+    image: `${import.meta.env.BASE_URL}Sign%20Language.png`,
     tags: ["Python", "Tensorflow/Keras", "OpenCV"],
     demoUrl: "#",
   },
   {
     id: 2,
-    title: "Sorting Algorithm Visualizer",
-    description:
-      " A visualizer that demonstrates bubble sort using OpenGL in C, where circles of varying sizes represent sortable values. Features include interactive buttons to start sorting, reset values, and exit.",
-    image: "/projects/Sorting Agorithm.png",
-    tags: ["C", "OpenGL", "GLUT"],
-    demoUrl: "#",
-  },
-  {
-    id: 3,
     title: "Personal Portfolio",
     description:
       "Designed and deployed a modern portfolio website using ReactJS and TailwindCSS, emphasizing performance, responsiveness, and clean UI for professional presentation.",
-    image: "/projects/Portfolio.png",
+    image: `${import.meta.env.BASE_URL}Portfolio.png`,
     tags: ["ReactJS", "TailwindCSS"],
+    demoUrl: "#",
+    githubUrl:"https://github.com/23diyakiran/my-portfolio"
+  },
+  {
+    id: 3,
+    title: "Automated Internship Finder Bot",
+    description:
+      " Developed an RPA bot using UiPath StudioX to automate internship searches by reading job role keywords from Excel, scraping recent listings from target websites, and exporting structured results to Excel.",
+    image: `${import.meta.env.BASE_URL}Automated%20internship%20Finder.png`,
+    tags: ["UiPath StudioX", "Excel Automation", "Web Scraping"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/23diyakiran/AutomatedInternshipBot"
+  },
+  {
+    id: 4,
+    title: "Sorting Algorithm Visualizer",
+    description:
+      " A visualizer that demonstrates bubble sort using OpenGL in C, where circles of varying sizes represent sortable values. Features include interactive buttons to start sorting, reset values, and exit.",
+    image: `${import.meta.env.BASE_URL}Sorting%20Algorithm.png`,
+    tags: ["C", "OpenGL", "GLUT"],
     demoUrl: "#",
   },
 ];
@@ -34,7 +45,7 @@ export const ProjectsSection = () => {
     <section id="projects" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
-          Featured <span className="text-primary">Projects</span>
+          <span className="text-primary">Projects</span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
@@ -76,7 +87,7 @@ export const ProjectsSection = () => {
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     <a
-                      href={project.demoUrl}
+                      href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"

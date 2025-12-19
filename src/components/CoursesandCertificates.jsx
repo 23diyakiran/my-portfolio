@@ -23,7 +23,7 @@ export const CoursesandCertificates = () => {
 
 
         <a
-  href="/Coursera-ai-certificate.pdf"
+  href={`${import.meta.env.BASE_URL}Coursera-ai-certificate.pdf`}
   target="_blank"
   rel="noopener noreferrer"
   className="gradient-border p-6 card-hover block"
@@ -38,7 +38,7 @@ export const CoursesandCertificates = () => {
 
 
           <a
-            href="https://example.com/postman-classroom-certificate.pdf"
+            href={`${import.meta.env.BASE_URL}POSTMAN API NITK CERTIFICATE.jpeg`}
             target="_blank"
             rel="noopener noreferrer"
             className="gradient-border p-6 card-hover block"
