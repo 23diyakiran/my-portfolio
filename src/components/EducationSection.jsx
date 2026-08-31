@@ -14,7 +14,7 @@ export const EducationSection = () => {
               Bachelor of Engineering (B.E.) in Computer Science and Design
             </p>
             <p className="text-sm text-muted-foreground">
-              CGPA: <span className="text-primary font-medium">7.58</span>
+              CGPA: <span className="text-primary font-medium">7.83</span>
             </p>
             <p className="text-sm mt-1 text-muted-foreground">2022 – 2026</p>
           </div>

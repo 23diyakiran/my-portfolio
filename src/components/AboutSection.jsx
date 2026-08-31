@@ -32,7 +32,7 @@ export const AboutSection = () => {
             </a>
 
             <a
-              href={`${import.meta.env.BASE_URL}Diya_KIran_Resume.pdf`}
+             href={`${import.meta.env.BASE_URL}diya-kiran-gathani-resume.pdf`}  // your CV in public folder
               target="_blank"
               rel="noopener noreferrer"
               className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"

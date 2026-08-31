@@ -5,38 +5,29 @@ const projects = [
     id: 1,
     title: "ASL Gesture Classification System",
     description: " A deep learning model using CNNs to classify static ASL gestures from images. Includes a real-time interface and integration with communication tools to facilitate interaction between ASL users and non-signers.",
-    image: `${import.meta.env.BASE_URL}Sign%20Language.png`,
+    image: `${import.meta.env.BASE_URL}Sign%20Language%20translator.png`,
     tags: ["Python", "Tensorflow/Keras", "OpenCV"],
     demoUrl: "#",
   },
   {
     id: 2,
-    title: "Personal Portfolio",
-    description:
-      "Designed and deployed a modern portfolio website using ReactJS and TailwindCSS, emphasizing performance, responsiveness, and clean UI for professional presentation.",
-    image: `${import.meta.env.BASE_URL}Portfolio.png`,
-    tags: ["ReactJS", "TailwindCSS"],
-    demoUrl: "#",
-    githubUrl:"https://github.com/23diyakiran/my-portfolio"
-  },
-  {
-    id: 3,
     title: "Automated Internship Finder Bot",
     description:
       " Developed an RPA bot using UiPath StudioX to automate internship searches by reading job role keywords from Excel, scraping recent listings from target websites, and exporting structured results to Excel.",
-    image: `${import.meta.env.BASE_URL}Automated%20internship%20Finder.png`,
+    image: `${import.meta.env.BASE_URL}Automated%20Internship%20Finder%20bot.png`,
     tags: ["UiPath StudioX", "Excel Automation", "Web Scraping"],
     demoUrl: "#",
     githubUrl: "https://github.com/23diyakiran/AutomatedInternshipBot"
   },
   {
-    id: 4,
-    title: "Sorting Algorithm Visualizer",
+    id: 3,
+    title: "Personal Portfolio",
     description:
-      " A visualizer that demonstrates bubble sort using OpenGL in C, where circles of varying sizes represent sortable values. Features include interactive buttons to start sorting, reset values, and exit.",
-    image: `${import.meta.env.BASE_URL}Sorting%20Algorithm.png`,
-    tags: ["C", "OpenGL", "GLUT"],
+      "Designed and deployed a modern portfolio website using ReactJS and TailwindCSS, emphasizing performance, responsiveness, and clean UI for professional presentation.",
+    image: `${import.meta.env.BASE_URL}PORTFOLIO1.png`,
+    tags: ["ReactJS", "TailwindCSS"],
     demoUrl: "#",
+    githubUrl:"https://github.com/23diyakiran/my-portfolio"
   },
 ];
 
